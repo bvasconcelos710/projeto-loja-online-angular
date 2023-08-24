@@ -1,0 +1,54 @@
+/* Estilo para o footer */
+footer {
+    background-color: #333;
+    /* Cor de fundo */
+    color: #fff;
+    /* Cor do texto */
+    padding: 30px;
+    /* Espaçamento interno superior e inferior */
+    font-size: 16px;
+}
+
+/* Estilo para o container do footer */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Estilo para as seções de conteúdo */
+footer section {
+    width: 45%;
+    /* Define a largura das seções */
+}
+
+/* Estilo para os títulos do footer */
+.footer-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    /* Espaçamento inferior */
+}
+
+/* Estilo para o texto "Sobre" */
+.footer-about {
+    line-height: 1.5;
+    /* Espaçamento entre linhas */
+}
+
+/* Estilo para o contato */
+address ul {
+    list-style: none;
+    padding: 0;
+}
+
+address li {
+    margin-bottom: 5px;
+    /* Espaçamento inferior entre os itens de contato */
+}
+
+/* Estilo para o texto de direitos autorais */
+.footer-copyright {
+    text-align: center;
+    margin-top: 20px;
+    /* Espaçamento superior */
+}

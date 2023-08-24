@@ -1,0 +1,14 @@
+<section class="product-container">
+    <div class="product-image">
+        <img [src]="produto?.imagem">
+    </div>
+    <div class="product-info">
+        <h1 class="product-title">{{produto?.nome}}</h1>
+        <p class="product-price">R$ {{produto?.preco}}</p>
+        <label>
+            Quantidade
+            <input type="number" [(ngModel)]="quantidade" min="1">
+        </label>
+        <button (click)="adicionarAoCarrinho()" class="product-adc-carrinho">Adicionar ao carrinho</button>
+    </div>
+</section>
