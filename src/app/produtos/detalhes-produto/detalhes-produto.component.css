@@ -15,8 +15,8 @@
 
 /* Estilo para a imagem do produto */
 .product-image img {
-    max-width: 100%;
-    height: auto;
+    height: 300px;
+    width: 300px;
     border-radius: 5px;
 }
 

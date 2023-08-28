@@ -1,8 +1,9 @@
 /* Estilo para a seção de lista de produtos */
 h1 {
     text-align: center;
-    margin-top: 5px;
+    margin-top: 10px;
     color: #0056b3;
+    font-size: 40px;
 }
 
 .product-list {
@@ -23,6 +24,7 @@ h1 {
     /* Define a largura dos cards e cria uma margem entre eles */
     margin-bottom: 20px;
     /* Espaçamento inferior entre os cards */
+
 }
 
 /* Estilo para os links de produtos */
@@ -33,11 +35,24 @@ h1 {
     display: block;
     transition: background-color 0.3s ease;
     /* Transição suave da cor de fundo */
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .product-list-link:hover {
     background-color: #ddd;
     /* Cor de fundo quando o mouse passa por cima */
+}
+
+.product-list-card img {
+    width: 200px;
+
+    height: 200px;
+
+    align-items: center;
+
 }
 
 /* Estilo para o nome do produto */

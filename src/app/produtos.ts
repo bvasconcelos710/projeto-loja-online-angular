@@ -16,13 +16,13 @@ export const produtos: IProduto[] = [
     {
         id: 1,
         nome: 'Teclado',
-        preco: 49.99,
+        preco: 119.99,
         imagem: './assets/imagem1.jpg',
     },
     {
         id: 2,
         nome: 'Monitor',
-        preco: 39.99,
+        preco: 139.99,
         imagem: './assets/imagem2.jpg',
     },
     {
@@ -34,19 +34,19 @@ export const produtos: IProduto[] = [
     {
         id: 4,
         nome: 'Fone de ouvido',
-        preco: 29.99,
+        preco: 79.99,
         imagem: './assets/imagem4.jpg',
     },
     {
         id: 5,
         nome: 'SSD',
-        preco: 69.99,
+        preco: 199.99,
         imagem: './assets/imagem5.jpg',
     },
     {
         id: 6,
         nome: 'Notebook',
-        preco: 79.99,
+        preco: 1299.99,
         imagem: './assets/imagem6.jpg',
     }
 ];
