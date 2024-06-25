@@ -1,9 +1,10 @@
-/* Estilo para a seção de lista de produtos */
+
 h1 {
     text-align: center;
     margin-top: 10px;
     color: #0056b3;
     font-size: 40px;
+    font-weight: bold;
 }
 
 .product-list {
@@ -13,28 +14,23 @@ h1 {
     padding: 20px;
 }
 
-/* Estilo para os cards de produtos */
+
 .product-list-card {
     background-color: #f7f7f7;
-    /* Cor de fundo do card */
     border: 1px solid #ddd;
-    /* Borda do card */
-    padding: 20px;
+    padding: 10px;
     width: calc(33.33% - 20px);
-    /* Define a largura dos cards e cria uma margem entre eles */
     margin-bottom: 20px;
-    /* Espaçamento inferior entre os cards */
+    
 
 }
 
-/* Estilo para os links de produtos */
 .product-list-link {
     text-decoration: none;
     color: #333;
-    /* Cor do texto do link */
     display: block;
     transition: background-color 0.3s ease;
-    /* Transição suave da cor de fundo */
+    
 
     align-items: center;
     justify-content: center;
@@ -43,7 +39,7 @@ h1 {
 
 .product-list-link:hover {
     background-color: #ddd;
-    /* Cor de fundo quando o mouse passa por cima */
+   
 }
 
 .product-list-card img {
@@ -55,18 +51,18 @@ h1 {
 
 }
 
-/* Estilo para o nome do produto */
+
 .product-list-link h2 {
     font-size: 18px;
     margin: 0;
 }
 
-/* Estilo para o preço do produto */
+
 .product-list-link p {
     font-size: 16px;
     margin: 5px 0;
     color: #007bff;
-    /* Cor do preço */
+ 
 }
 
 /* Estilo para o botão de compra */
