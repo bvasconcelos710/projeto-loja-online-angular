@@ -1,12 +1,4 @@
 
-h1 {
-    text-align: center;
-    margin-top: 10px;
-    color: #0056b3;
-    font-size: 40px;
-    font-weight: bold;
-}
-
 .product-list {
     display: flex;
     flex-wrap: wrap;
